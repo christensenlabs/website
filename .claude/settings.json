@@ -4,7 +4,8 @@
       "Edit",
       "Grep",
       "Glob",
-      "Write"
+      "Write",
+      "Bash(git:*)"
     ]
   }
 }
