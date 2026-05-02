@@ -9,8 +9,11 @@ build:
 
 # Deploy: build, sync to S3, invalidate CloudFront cache
 deploy: build
+    @echo "==> Syncing dist/ to S3 bucket $CLABS_WEBSITE_BUCKET..."
     aws s3 sync dist s3://$CLABS_WEBSITE_BUCKET --delete
+    @echo "==> Invalidating CloudFront distribution $CLABS_WEBSITE_CLOUDFRONT_DISTRIBUTION_ID..."
     aws cloudfront create-invalidation --distribution-id $CLABS_WEBSITE_CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+    @echo "==> Deploy complete!"
 
 # Show resolved config (for debugging)
 show-config:
