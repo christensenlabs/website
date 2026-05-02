@@ -3,7 +3,7 @@ import type { Config } from "./types";
 const prodConfig: Config = {
   firebase: {
     apiKey: "AIzaSyBaAGqTOBeCH5x0IPkraeY7v_78vJ3-Os0",
-    authDomain: "christensenlabs-site.firebaseapp.com",
+    authDomain: "christensenlabs.com",
     projectId: "christensenlabs-site",
     storageBucket: "christensenlabs-site.firebasestorage.app",
     messagingSenderId: "268990673064",
