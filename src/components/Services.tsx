@@ -7,7 +7,7 @@ const services = [
   {
     title: "Technical Consulting",
     description:
-      "Architecture reviews, tech-stack guidance, and roadmap planning.",
+      "Architecture reviews, tech-stack guidance, security reviews, and roadmap planning.",
   },
   {
     title: "Team Augmentation",

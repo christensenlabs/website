@@ -6,8 +6,8 @@ function Contact() {
         Have a project in mind? Drop us a line and we'll get back to you
         within one business day.
       </p>
-      <a href="mailto:contact@christensenlabs.com" className="btn">
-        contact@christensenlabs.com
+      <a href="mailto:daniel@christensenlabs.com" className="btn">
+        daniel@christensenlabs.com
       </a>
     </section>
   );
