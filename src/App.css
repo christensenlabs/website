@@ -19,10 +19,20 @@
 }
 
 .nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-weight: 700;
   font-size: 1.25rem;
-  color: var(--color-text);
+  color: var(--color-primary);
   text-decoration: none;
+}
+
+.nav-logo-icon {
+  height: 24px;
+  width: auto;
+  position: relative;
+  top: 1px;
 }
 
 .nav-links {

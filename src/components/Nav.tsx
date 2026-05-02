@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { signInWithPopup, onAuthStateChanged, type User } from 'firebase/auth';
 import { auth, googleProvider } from '../firebase';
+import logoIcon from '/icons/icon-512x512-blue.png';
 
 function Nav() {
   const [user, setUser] = useState<User | null>(null);
@@ -15,7 +16,10 @@ function Nav() {
   return (
     <nav className="nav">
       <div className="nav-inner">
-        <Link to="/" className="nav-logo">ChristensenLabs</Link>
+        <Link to="/" className="nav-logo">
+          <img src={logoIcon} alt="" className="nav-logo-icon" />
+          ChristensenLabs
+        </Link>
         <ul className="nav-links">
           <li><a href="/#services">Services</a></li>
           <li><a href="/#about">About</a></li>
