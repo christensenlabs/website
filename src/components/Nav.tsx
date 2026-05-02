@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { signInWithPopup, onAuthStateChanged, type User } from 'firebase/auth';
 import { auth, googleProvider } from '../firebase';
-import logoIcon from '/icons/icon-512x512-blue.png';
+const logoIcon = '/icons/icon-512x512-blue.png';
 
 function Nav() {
   const [user, setUser] = useState<User | null>(null);
