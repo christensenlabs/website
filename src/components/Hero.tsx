@@ -6,7 +6,7 @@ function Hero() {
         We partner with companies to design, build, and ship software that
         makes a real impact.
       </p>
-      <a href="#contact" className="btn">Get in Touch</a>
+      <a href="/#contact" className="btn">Get in Touch</a>
     </section>
   );
 }
