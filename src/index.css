@@ -17,6 +17,16 @@
   --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 }
 
+[data-theme="dark"] {
+  --color-bg: #1a1a2e;
+  --color-text: #e2e8f0;
+  --color-text-muted: #94a3b8;
+  --color-primary: #b8bfc8;
+  --color-primary-hover: #8a929b;
+  --color-surface: #232340;
+  --color-border: #334155;
+}
+
 html {
   scroll-behavior: smooth;
 }
